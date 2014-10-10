@@ -7,3 +7,5 @@ More info here: http://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2
 
 1. Run getListEnWikiVital100.py to generate the ListEnWikiVital100.txt file, that includes the article links to the 100-vital Wikipedia articles.
 2. Run scrapeWikiVital.py to download live versions of the Vital Wikipedia articles.  They are placed in wiki/liveArticles/ as .html files. 
+3. Run convertWiki2Static.py to convert the live verisons to static versions.
+4. Run removeDeadLinks.py to remove links to articles not within the static set.
