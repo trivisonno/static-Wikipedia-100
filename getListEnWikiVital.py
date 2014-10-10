@@ -3,9 +3,9 @@ import urllib2
 from bs4 import BeautifulSoup
 
 
-f = open('ListEnWikiVital100.txt','w')
+f = open('lists/ListEnWikiVital.txt','w')
 
-urls = ['http://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2']
+urls = ['http://en.wikipedia.org/wiki/Wikipedia:Vital_articles/Level/2']  # Single page where the 100 vital articles are linked
 
 #pulls the article links to the vital 100, plus some misc. links
 
