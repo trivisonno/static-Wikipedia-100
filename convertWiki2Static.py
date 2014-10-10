@@ -306,9 +306,9 @@ def convertWikiArticle(filename):
 			print(imglink)
 			#imglink = imglink.replace('//upload.wikimedia.org/wikipedia/','../')
 			#print(imglink)
-
-			with open("lists/listInfoBoxImgs.txt", "a") as myfile:
-				myfile.write(imglink+'\n')
+			if not '?' in imglink:
+				with open("lists/listInfoBoxImgs.txt", "a") as myfile:
+					myfile.write(imglink+'\n')
 
 	except:
 		pass	
