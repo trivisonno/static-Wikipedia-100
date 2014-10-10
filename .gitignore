@@ -1,2 +1,5 @@
 # ignore all .txt files in the lists/ directory
-lists/**/*.txt
+lists/
+
+#ignore all files in the wiki/ dir.  this is where live versions of the Wikipedia content will go
+wiki/
